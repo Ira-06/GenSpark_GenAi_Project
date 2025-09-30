@@ -21,6 +21,8 @@ def gussing_game():
             print("Too High! Try again ")
             
         attempts+=1
+    if (attempts>10):
+        print("Game over you Lost")
  
 
 def main ():
